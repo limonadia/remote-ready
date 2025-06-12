@@ -3,12 +3,13 @@ import Link from "next/link";
 import path from "path";
 import fs from "fs/promises";
 
-type Job = {
+export type Job = {
   id: string
   title: string
   company: string
   location: string
   type: string
+  description: string
 }
 
 type Props = {
